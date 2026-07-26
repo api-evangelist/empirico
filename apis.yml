@@ -1,8 +1,27 @@
 aid: empirico
 name: Empirico
-description: Empirico is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Empirico is a biotechnology company that powers therapeutic discovery with
+  human genetics and small interfering RNA (siRNA) medicines. Combining internal capabilities
+  in human genetics and siRNA chemistry with partner expertise, the company identifies
+  naturally occurring genetic variations associated with health benefits and develops
+  precision oligonucleotide therapeutics for common diseases with significant unmet
+  medical need. In October 2024 Empirico entered a licensing agreement with GSK worth
+  up to $745 million for a clinical-stage oligonucleotide targeting respiratory disease
+  (COPD). Empirico is backed by DCVC. It is a pharmaceutical R&D company and does not
+  operate a public technology or API platform.
 url: https://raw.githubusercontent.com/api-evangelist/empirico/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.empiri.co/wp-content/uploads/2023/11/logo-empirico.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Human Genetics
+- siRNA
+- Therapeutics
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.empiri.co/
+- type: About
+  url: https://www.empiri.co/our-company/
+- type: News
+  url: https://www.empiri.co/investors-news/
+- type: Careers
+  url: https://www.empiri.co/careers/
+- type: PrivacyPolicy
+  url: https://www.empiri.co/privacy-policy/
+- type: TermsOfService
+  url: https://www.empiri.co/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/empiricoinc/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
