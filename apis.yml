@@ -10,6 +10,17 @@ description: Empirico is a biotechnology company that powers therapeutic discove
   (COPD). Empirico is backed by DCVC. It is a pharmaceutical R&D company and does not
   operate a public technology or API platform.
 url: https://raw.githubusercontent.com/api-evangelist/empirico/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
